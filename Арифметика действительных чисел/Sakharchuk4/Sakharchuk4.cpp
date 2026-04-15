@@ -13,8 +13,5 @@ int main()
 {
 	int x;
 	cin >> x;
-	int x2 = x * x;
-	int x3 = x2 * x;
-	int x4 = x3 * x;
-	cout << 2 * x4 - 3 * x3 + 4 * x2 - 5 * x + 6;
+	cout << (((2 * x - 3) * x + 4) * x - 5) * x + 6;
 }
